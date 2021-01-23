@@ -1,0 +1,120 @@
+/* start hero */
+
+body{
+    margin: 0;
+    font-family:'Poppins', sans-serif;;
+}
+.hero{
+    background-image: url('image/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+p{
+    color: #696969;
+    font-size: 16px
+}
+
+.name{
+    color:#EC4C77;
+}
+
+.ancor{
+    text-decoration: none;
+    background-color:#EC4C77;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 35px ;
+    border-radius: 8px;
+    /* box-shadow:5px 5px 40px rgb(172, 165, 165); */
+}
+.ancor:hover{
+    box-shadow: 5px 5px 40px rgb(34, 32, 32);
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 30px;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 50px;
+}
+.half1{
+    margin-top: 40%;
+}
+
+/* start about section */
+.about2{
+    margin-top: 40%;
+}
+.about{
+    background-image: url(image/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* end about section */
+
+/* start work section */
+.my-work{
+    text-align: center;
+    margin: 0;
+}
+.picture img{
+    width: 30%;
+    display: flex;
+    float: left;
+    padding-left: 2.5%;
+}
+.picture:hover{
+    box-shadow: 5px 5px 70px red;
+}
+.work-section{
+    background-size:cover;
+    background-image: url('image/biography-bg.png');
+    background-repeat: no-repeat;
+}
+
+
+
+/* end work section */
+
+/* start last section */
+.last-section{
+    background-image: url('image/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.last1{
+    text-align: center;
+    margin-bottom: 110px;
+    margin-top: 140px;
+}
+.last2{
+    text-align:center;
+    margin-top: 100px;
+    background-color: #EC4C77;
+    padding: 10px 35px ;
+    border-radius: 8px;
+    color: #fff;
+    width: 600px;
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+    box-shadow:5px 5px 40px rgb(172, 165, 165);
+}
+.last2:hover{
+    box-shadow: 5px 5px 40px rgb(34, 32, 32);
+}
+.foter{
+    text-align: center;
+    margin-top: 230px;
+}
+/* end last section */
